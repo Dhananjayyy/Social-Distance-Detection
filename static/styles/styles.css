@@ -1,0 +1,14 @@
+#test1 {
+    background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+}
+
+#logout{
+    border: red;
+    color: red;
+}
+
+#logout:hover {
+    color: white;
+    background-color:red;
+    border: red;
+}

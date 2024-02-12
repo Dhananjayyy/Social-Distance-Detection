@@ -1,0 +1,37 @@
+
+
+{% extends "layout.html" %}
+
+{% block head %}
+
+<script>
+
+  
+</script>
+
+
+{% endblock %}
+
+{% block main %}
+
+<form style="margin-top: 100px; margin-bottom: 100px;" method="POST">
+  <center>
+    <div>
+      <div>
+               
+          <div  class="card" style="text-align: left;  padding: 20px; max-width: 600px;">
+            <div class="card-title">
+
+                <h3>Scocial Distance Detection (<span style="color: red;">Live</span>):</h3>
+            </div>
+            
+            <img src="http://127.0.0.1:5000/stream/video" alt="Loading" />
+            
+            <a class="btn btn-outline-danger mt-2" , href="{{url_for('dashboard')}}">Close Surveillance</a>
+            
+          </div>
+    </div>
+  </center>
+</form>
+
+{% endblock %}

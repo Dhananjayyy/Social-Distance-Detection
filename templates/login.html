@@ -1,0 +1,43 @@
+{% extends "layout.html" %}
+
+{% block main %}
+
+<form style="margin-top: 100px; margin-bottom: 200px;" method="POST" >
+    <center>
+        <h2 style="color: white;">Sign In</h1>
+    <div >
+        <div class="card" style="text-align: left; width: 600px; padding: 50px;">
+        {{form.hidden_tag()}}
+        {{form.username.label}}
+        <br>
+        {{form.username(class="form-control")}}
+        <br>
+       
+        {% for error in form.username.errors %}
+        <span style="color: red;" >
+            {{error}}
+        </span>
+        <br>
+        {% endfor %}
+        
+        {{form.password.label}}
+        <br>
+        {{form.password(class="form-control")}}
+        <br>
+        {% for error in form.password.errors %}
+        <span style="color: red;" >
+            {{error}}
+        </span>
+        <br>
+        {% endfor %}
+
+        <div style="width: 300px; margin-top: 50px; margin-bottom: 50px;">
+            {{form.submit(class="btn btn-primary", style="width: 500px;",value = "Login" )}}
+        </div>
+
+        Need An Account? <a href="{{url_for('register')}}">Register</a>
+    </div>
+</div>
+</center>
+</form>
+{% endblock %}

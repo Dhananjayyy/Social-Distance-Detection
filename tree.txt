@@ -1,0 +1,61 @@
+Folder PATH listing
+Volume serial number is 32FA-E4D1
+C:.
+³   .gitignore
+³   app.py
+³   coco.names
+³   common.py
+³   db.sqlite3
+³   openvino.txt
+³   README.md
+³   requirements.txt
+³   run.bash
+³   run.bat
+³   tree.txt
+³   
+ÃÄÄÄmodels
+³   ÀÄÄÄssd_mobilenet_v2_coco
+³       ³   classes.json
+³       ³   create_dict.py
+³       ³   
+³       ÃÄÄÄFP16
+³       ³       ssd_mobilenet_v2_coco.bin
+³       ³       ssd_mobilenet_v2_coco.mapping
+³       ³       ssd_mobilenet_v2_coco.xml
+³       ³       
+³       ÀÄÄÄFP32
+³               ssd_mobilenet_v2_coco.bin
+³               ssd_mobilenet_v2_coco.mapping
+³               ssd_mobilenet_v2_coco.xml
+³               
+ÃÄÄÄpublic
+³   ÃÄÄÄconverted
+³   ³       ssd_mobilenet_v2_coco.bin
+³   ³       ssd_mobilenet_v2_coco.mapping
+³   ³       ssd_mobilenet_v2_coco.xml
+³   ³       
+³   ÀÄÄÄssd_mobilenet_v2_coco
+³       ÀÄÄÄssd_mobilenet_v2_coco_2018_03_29
+³           ³   checkpoint
+³           ³   frozen_inference_graph.pb
+³           ³   model.ckpt.data-00000-of-00001
+³           ³   model.ckpt.index
+³           ³   model.ckpt.meta
+³           ³   pipeline.config
+³           ³   
+³           ÀÄÄÄsaved_model
+³               ³   saved_model.pb
+³               ³   
+³               ÀÄÄÄvariables
+ÃÄÄÄstatic
+³   ÀÄÄÄstyles
+³           styles.css
+³           
+ÀÄÄÄtemplates
+        dashboard.html
+        home.html
+        layout.html
+        login.html
+        register.html
+        social-distance-servilance-live.html
+        
